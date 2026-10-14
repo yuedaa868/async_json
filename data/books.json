@@ -1,0 +1,14 @@
+[
+  { "id": 1, "title": "活着", "category": "文学", "borrowCount": 42 },
+  { "id": 2, "title": "三体", "category": "科幻", "borrowCount": 87 },
+  { "id": 3, "title": "明朝那些事儿", "category": "历史", "borrowCount": 65 },
+  { "id": 4, "title": "深入理解计算机系统", "category": "科技", "borrowCount": 38 },
+  { "id": 5, "title": "百年孤独", "category": "文学", "borrowCount": 55 },
+  { "id": 6, "title": "流浪地球", "category": "科幻", "borrowCount": 73 },
+  { "id": 7, "title": "人类简史", "category": "历史", "borrowCount": 91 },
+  { "id": 8, "title": "代码大全", "category": "科技", "borrowCount": 60 },
+  { "id": 9, "title": "平凡的世界", "category": "文学", "borrowCount": 120 },
+  { "id": 10, "title": "球状闪电", "category": "科幻", "borrowCount": 49 },
+  { "id": 11, "title": "万历十五年", "category": "历史", "borrowCount": 33 },
+  { "id": 12, "title": "艺术的故事", "category": "艺术", "borrowCount": 28 }
+]
