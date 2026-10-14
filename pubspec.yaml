@@ -1,5 +1,5 @@
 name: async_json
-description: A sample command-line application.
+description: 异步读取本地 JSON 图书数据集并统计输出。
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
