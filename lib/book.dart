@@ -18,7 +18,8 @@ class Book {
       id: json['id'] as int,
       title: json['title'] as String,
       category: json['category'] as String,
-      borrowCount: (json['borrowCount'] as int?)!,
+      // 缺失字段时默认 0，避免 null 断言崩溃
+      borrowCount: (json['borrowCount'] as int?) ?? 0,
     );
   }
 

@@ -8,6 +8,12 @@ Future<void> main() async {
   // 1) 定位数据文件：项目根目录下的 data/books.json
   final file = File(p.join(Directory.current.path, 'data', 'books.json'));
 
+  // 文件缺失时给出友好提示，而不是抛出崩溃堆栈
+  if (!await file.exists()) {
+    print('数据文件缺失，请检查data/books.json');
+    return;
+  }
+
   // 2) 异步读取：readAsString() 返回 Future<String>，await 取出内容
   final content = await file.readAsString();
 
